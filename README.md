@@ -1,1 +1,1 @@
-# hac
+# Host Availability Check
