@@ -26,10 +26,10 @@ for /f "usebackq tokens=*" %%I in ("%~1") do (
     ping "%%I" -n 4 -w 2000 > nul
     if errorlevel 1 (
         echo     UNREACHABLE
-        echo UNREACHABLE - %%I >> hac_report.txt
+        echo UNREACHABLE - %%I>> hac_report.txt
     ) else (
         echo     REACHABLE
-        echo REACHABLE - %%I >> hac_report.txt
+        echo REACHABLE - %%I>> hac_report.txt
     )
     echo -------------------------
     set /a count+=1
