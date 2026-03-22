@@ -61,7 +61,7 @@ Run the script
 .\hac.bat .\hosts.txt
 ```
 
-Console Output
+Console output
 
 ```text
 [1] Pinging 8.8.8.8 ...
@@ -74,7 +74,7 @@ Console Output
     UNREACHABLE
 ```
 
-Generated Report (`hac_report.txt`)
+Generated report (`hac_report.txt`)
 
 ```text
 Ping results:
