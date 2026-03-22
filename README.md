@@ -58,7 +58,7 @@ google.com
 Run the script
 
 ```bash
-.\hac.bat .\hosts.txt
+hac.bat hosts.txt
 ```
 
 Console output
